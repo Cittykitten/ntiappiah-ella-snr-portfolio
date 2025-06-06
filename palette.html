@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    :root {
+      --charcoal: #3a3a3a;
+      --burgundy: #8a1f2d;
+      --navy: #2a3d66;
+      --sage: #a3b18a;
+      --beige: #f5f1e9;
+      --gold: #bfa06e;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--beige);
+      color: var(--charcoal);
+    }
+
+    header {
+      background-color: var(--navy);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: var(--gold);
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .highlight {
+      background-color: var(--sage);
+      padding: 1rem;
+      border-left: 5px solid var(--burgundy);
+    }
+
+    .button {
+      background-color: var(--burgundy);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: var(--charcoal);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a creative professional with a passion for design and technology.</p>
+    <div class="highlight">
+      <p>Skilled in UI/UX, frontend development, and visual storytelling.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <button class="button">View My Work</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
