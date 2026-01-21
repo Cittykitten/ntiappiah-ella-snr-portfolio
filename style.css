@@ -508,6 +508,7 @@ footer {
 .social-link {
     width: 45px;
     height: 45px;
+    text-decoration: none;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -578,4 +579,5 @@ footer {
     .section {
         padding: 4rem 0;
     }
+
 }
