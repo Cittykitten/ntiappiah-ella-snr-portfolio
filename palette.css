@@ -1,1 +1,54 @@
+    :root {
+      --charcoal: #3a3a3a;
+      --burgundy: #8a1f2d;
+      --navy: #2a3d66;
+      --sage: #a3b18a;
+      --beige: #f5f1e9;
+      --gold: #bfa06e;
+    }
 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--beige);
+      color: var(--charcoal);
+    }
+
+    header {
+      background-color: var(--navy);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: var(--gold);
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .highlight {
+      background-color: var(--sage);
+      padding: 1rem;
+      border-left: 5px solid var(--burgundy);
+    }
+
+    .button {
+      background-color: var(--burgundy);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: var(--charcoal);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
